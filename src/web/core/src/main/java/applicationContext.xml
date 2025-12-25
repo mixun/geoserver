@@ -211,7 +211,6 @@
     <property name="componentClass" value="org.geoserver.web.DemoPage" />
     <property name="authorizer">
       <bean class="org.geoserver.web.EmptyPageLinksAuthorizer">
-        <property name="linkClasses" value="org.geoserver.web.DemoLinkInfo" />
       </bean>
     </property>
 
