@@ -209,10 +209,7 @@
     <property name="titleKey" value="demo.title" />
     <property name="descriptionKey" value="demo.description" />
     <property name="componentClass" value="org.geoserver.web.DemoPage" />
-    <property name="authorizer">
-      <bean class="org.geoserver.web.EmptyPageLinksAuthorizer">
-      </bean>
-    </property>
+    <property name="authorizer" ref="workspaceAdminAuthorizer"/>
 
   </bean>
 
